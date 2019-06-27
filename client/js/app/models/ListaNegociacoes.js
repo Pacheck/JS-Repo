@@ -14,3 +14,11 @@ class ListaNegociacoes {
         return this._negociacoes;
     }
 }
+
+var eu = ['Pedro','Pacheco', 22, true]
+
+
+
+function selecionaJogadores() {
+    
+}
