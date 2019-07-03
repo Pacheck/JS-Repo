@@ -1,7 +1,10 @@
 class NegociacoesView {
 
+    constructor(elemento) {
+        this._elemento = elemento;
+    }
 
-    template() {
+    _template() {
 
         return `
         
@@ -23,4 +26,10 @@ class NegociacoesView {
         </table>
         `;
     }
+
+    _update() {
+
+        this._elemento.innerHTML = this._template();
+    }
+    
 }
