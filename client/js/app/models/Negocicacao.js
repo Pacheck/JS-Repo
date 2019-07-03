@@ -36,8 +36,6 @@ class Negociacao {
 
 
 
-
-
 class Pessoa {
 
     constructor(nome, sobrenome) {
